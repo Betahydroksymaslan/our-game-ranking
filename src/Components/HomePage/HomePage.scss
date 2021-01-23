@@ -1,0 +1,119 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  padding: 40px 10px;
+  &__header {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  &__leadersWrapper {
+    width: 100%;
+    margin: 190px 0;
+    position: relative;
+  }
+  &__firstPlace,
+  &__secondPlace,
+  &__thirdPlace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: absolute;
+    top: 50%;
+  }
+  &__firstPlace {
+    left: 50%;
+    transform: translate(-50%, -57%);
+    z-index: 100;
+  }
+  &__secondPlace {
+    left: 50%;
+    transform: translate(-145%, -40%);
+  }
+  &__thirdPlace {
+    right: 50%;
+    transform: translate(145%, -40%);
+  }
+  &__corona {
+    width: 70px;
+  }
+  &__nickname {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  &__points {
+    font-size: 25px;
+    color: $second-color;
+  }
+  &__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 4px solid $second-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    &--first {
+      width: 130px;
+      height: 130px;
+      box-shadow: 0 0 40px rgba(15, 190, 68, 0.438);
+    }
+  }
+  &__placeNumber {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  &__imageSrc {
+    width: 100%;
+  }
+
+  /* >>>>>>>>>>>>>>>>> ANOTHER PLACES <<<<<<<<<<<<<<<<<<<< */
+
+  &__anotherPlaces {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    color: $font-color;
+    margin-bottom: 20px;
+  }
+  &__placeNumberSpan {
+    font-size: 22px;
+  }
+  &__anotherPlacesBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    width: 85%;
+    background-color: $box-color;
+    border-radius: 40px;
+  }
+  &__anotherPlacesImageWrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    justify-self: flex-start;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__anotherPlacesImage {
+    width: 100%;
+  }
+  &__anotherPlacesNickname {
+    font-size: 18px;
+  }
+  &__anotherPlacesPoints {
+    font-size: 21px;
+    color: $second-color;
+  }
+}

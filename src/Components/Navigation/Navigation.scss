@@ -1,0 +1,17 @@
+.Nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  &__link {
+    color: $font-color;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    &--active {
+      background-color: $box-color;
+    }
+  }
+}
