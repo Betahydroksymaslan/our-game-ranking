@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.26b518cf.chunk.css",
+    "main.css": "/our-game-ranking/static/css/main.f262d990.chunk.css",
     "main.js": "/our-game-ranking/static/js/main.54c0b58d.chunk.js",
     "main.js.map": "/our-game-ranking/static/js/main.54c0b58d.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.8adedda5.js",
@@ -12,7 +12,7 @@
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.26b518cf.chunk.css.map": "/our-game-ranking/static/css/main.26b518cf.chunk.css.map",
+    "static/css/main.f262d990.chunk.css.map": "/our-game-ranking/static/css/main.f262d990.chunk.css.map",
     "static/js/2.6da5ea78.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.6da5ea78.chunk.js.LICENSE.txt",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
     "static/media/justynaPhoto.4e838dfe.PNG": "/our-game-ranking/static/media/justynaPhoto.4e838dfe.PNG",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.8adedda5.js",
     "static/js/2.6da5ea78.chunk.js",
-    "static/css/main.26b518cf.chunk.css",
+    "static/css/main.f262d990.chunk.css",
     "static/js/main.54c0b58d.chunk.js"
   ]
 }
