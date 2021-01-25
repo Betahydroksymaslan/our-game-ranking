@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.8701258c.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.c707cc1a.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.c707cc1a.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.d8620b19.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.17cfe1d9.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.17cfe1d9.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.a5b89948.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.a5b89948.js.map",
     "static/js/2.f02e14ce.chunk.js": "/our-game-ranking/static/js/2.f02e14ce.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.8701258c.chunk.css.map": "/our-game-ranking/static/css/main.8701258c.chunk.css.map",
+    "static/css/main.d8620b19.chunk.css.map": "/our-game-ranking/static/css/main.d8620b19.chunk.css.map",
     "static/js/2.f02e14ce.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.f02e14ce.chunk.js.LICENSE.txt",
     "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/catanLogo.08f68185.png": "/our-game-ranking/static/media/catanLogo.08f68185.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5b89948.js",
     "static/js/2.f02e14ce.chunk.js",
-    "static/css/main.8701258c.chunk.css",
-    "static/js/main.c707cc1a.chunk.js"
+    "static/css/main.d8620b19.chunk.css",
+    "static/js/main.17cfe1d9.chunk.js"
   ]
 }
