@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.4641f1c1.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.34603e83.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.34603e83.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.c41fafe6.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.76a5c889.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.76a5c889.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.a5b89948.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.a5b89948.js.map",
     "static/js/2.a16bca2e.chunk.js": "/our-game-ranking/static/js/2.a16bca2e.chunk.js",
@@ -12,8 +12,9 @@
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.4641f1c1.chunk.css.map": "/our-game-ranking/static/css/main.4641f1c1.chunk.css.map",
+    "static/css/main.c41fafe6.chunk.css.map": "/our-game-ranking/static/css/main.c41fafe6.chunk.css.map",
     "static/js/2.a16bca2e.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.a16bca2e.chunk.js.LICENSE.txt",
+    "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/catanLogo.08f68185.png": "/our-game-ranking/static/media/catanLogo.08f68185.png",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
     "static/media/justynaPhoto.dc11ff53.jpg": "/our-game-ranking/static/media/justynaPhoto.dc11ff53.jpg",
@@ -21,12 +22,13 @@
     "static/media/karolPhoto.78bd859a.jpg": "/our-game-ranking/static/media/karolPhoto.78bd859a.jpg",
     "static/media/monopolyLogo.9085fe01.jpg": "/our-game-ranking/static/media/monopolyLogo.9085fe01.jpg",
     "static/media/paulinaPhoto.0be90e69.jpg": "/our-game-ranking/static/media/paulinaPhoto.0be90e69.jpg",
+    "static/media/silverMedalIcon.ebe2bf14.svg": "/our-game-ranking/static/media/silverMedalIcon.ebe2bf14.svg",
     "static/media/userCogImage.876ff057.svg": "/our-game-ranking/static/media/userCogImage.876ff057.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a5b89948.js",
     "static/js/2.a16bca2e.chunk.js",
-    "static/css/main.4641f1c1.chunk.css",
-    "static/js/main.34603e83.chunk.js"
+    "static/css/main.c41fafe6.chunk.css",
+    "static/js/main.76a5c889.chunk.js"
   ]
 }
