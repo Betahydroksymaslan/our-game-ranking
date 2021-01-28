@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.a5f3e8c0.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.037c033d.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.037c033d.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.dbad6c5e.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.86e43f8c.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.86e43f8c.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.84fb18a2.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.84fb18a2.js.map",
-    "static/js/2.6c3c2ecd.chunk.js": "/our-game-ranking/static/js/2.6c3c2ecd.chunk.js",
-    "static/js/2.6c3c2ecd.chunk.js.map": "/our-game-ranking/static/js/2.6c3c2ecd.chunk.js.map",
+    "static/js/2.e98f455e.chunk.js": "/our-game-ranking/static/js/2.e98f455e.chunk.js",
+    "static/js/2.e98f455e.chunk.js.map": "/our-game-ranking/static/js/2.e98f455e.chunk.js.map",
     "static/js/3.edfdeaa5.chunk.js": "/our-game-ranking/static/js/3.edfdeaa5.chunk.js",
     "static/js/3.edfdeaa5.chunk.js.map": "/our-game-ranking/static/js/3.edfdeaa5.chunk.js.map",
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.a5f3e8c0.chunk.css.map": "/our-game-ranking/static/css/main.a5f3e8c0.chunk.css.map",
-    "static/js/2.6c3c2ecd.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.6c3c2ecd.chunk.js.LICENSE.txt",
+    "static/css/main.dbad6c5e.chunk.css.map": "/our-game-ranking/static/css/main.dbad6c5e.chunk.css.map",
+    "static/js/2.e98f455e.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.e98f455e.chunk.js.LICENSE.txt",
     "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/catanLogo.08f68185.png": "/our-game-ranking/static/media/catanLogo.08f68185.png",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.84fb18a2.js",
-    "static/js/2.6c3c2ecd.chunk.js",
-    "static/css/main.a5f3e8c0.chunk.css",
-    "static/js/main.037c033d.chunk.js"
+    "static/js/2.e98f455e.chunk.js",
+    "static/css/main.dbad6c5e.chunk.css",
+    "static/js/main.86e43f8c.chunk.js"
   ]
 }
