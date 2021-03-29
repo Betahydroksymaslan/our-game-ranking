@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.6b6194a8.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.8d66eef7.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.8d66eef7.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.59436851.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.d12e1179.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.d12e1179.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.a99d049a.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.a99d049a.js.map",
     "static/js/2.21181a64.chunk.js": "/our-game-ranking/static/js/2.21181a64.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.6b6194a8.chunk.css.map": "/our-game-ranking/static/css/main.6b6194a8.chunk.css.map",
+    "static/css/main.59436851.chunk.css.map": "/our-game-ranking/static/css/main.59436851.chunk.css.map",
     "static/js/2.21181a64.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.21181a64.chunk.js.LICENSE.txt",
     "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a99d049a.js",
     "static/js/2.21181a64.chunk.js",
-    "static/css/main.6b6194a8.chunk.css",
-    "static/js/main.8d66eef7.chunk.js"
+    "static/css/main.59436851.chunk.css",
+    "static/js/main.d12e1179.chunk.js"
   ]
 }
