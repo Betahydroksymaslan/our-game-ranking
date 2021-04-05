@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.ae49da3e.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.1a7f4055.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.1a7f4055.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.cd58d377.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.7a782b02.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.7a782b02.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.a99d049a.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.a99d049a.js.map",
     "static/js/2.13b6b031.chunk.js": "/our-game-ranking/static/js/2.13b6b031.chunk.js",
@@ -10,17 +10,18 @@
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.ae49da3e.chunk.css.map": "/our-game-ranking/static/css/main.ae49da3e.chunk.css.map",
+    "static/css/main.cd58d377.chunk.css.map": "/our-game-ranking/static/css/main.cd58d377.chunk.css.map",
     "static/js/2.13b6b031.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.13b6b031.chunk.js.LICENSE.txt",
     "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
+    "static/media/gameHistoryIcon.4d2ec940.svg": "/our-game-ranking/static/media/gameHistoryIcon.4d2ec940.svg",
     "static/media/silverMedalIcon.ebe2bf14.svg": "/our-game-ranking/static/media/silverMedalIcon.ebe2bf14.svg",
     "static/media/userCogImage.876ff057.svg": "/our-game-ranking/static/media/userCogImage.876ff057.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a99d049a.js",
     "static/js/2.13b6b031.chunk.js",
-    "static/css/main.ae49da3e.chunk.css",
-    "static/js/main.1a7f4055.chunk.js"
+    "static/css/main.cd58d377.chunk.css",
+    "static/js/main.7a782b02.chunk.js"
   ]
 }
