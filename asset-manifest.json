@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/our-game-ranking/static/css/main.34a6b6b6.chunk.css",
-    "main.js": "/our-game-ranking/static/js/main.49f90b5b.chunk.js",
-    "main.js.map": "/our-game-ranking/static/js/main.49f90b5b.chunk.js.map",
+    "main.css": "/our-game-ranking/static/css/main.d3ebc1b6.chunk.css",
+    "main.js": "/our-game-ranking/static/js/main.0400e643.chunk.js",
+    "main.js.map": "/our-game-ranking/static/js/main.0400e643.chunk.js.map",
     "runtime-main.js": "/our-game-ranking/static/js/runtime-main.a99d049a.js",
     "runtime-main.js.map": "/our-game-ranking/static/js/runtime-main.a99d049a.js.map",
-    "static/js/2.4ccd566f.chunk.js": "/our-game-ranking/static/js/2.4ccd566f.chunk.js",
-    "static/js/2.4ccd566f.chunk.js.map": "/our-game-ranking/static/js/2.4ccd566f.chunk.js.map",
+    "static/js/2.e7570323.chunk.js": "/our-game-ranking/static/js/2.e7570323.chunk.js",
+    "static/js/2.e7570323.chunk.js.map": "/our-game-ranking/static/js/2.e7570323.chunk.js.map",
     "index.html": "/our-game-ranking/index.html",
     "service-worker.js": "/our-game-ranking/service-worker.js",
     "service-worker.js.map": "/our-game-ranking/service-worker.js.map",
-    "static/css/main.34a6b6b6.chunk.css.map": "/our-game-ranking/static/css/main.34a6b6b6.chunk.css.map",
-    "static/js/2.4ccd566f.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.4ccd566f.chunk.js.LICENSE.txt",
+    "static/css/main.d3ebc1b6.chunk.css.map": "/our-game-ranking/static/css/main.d3ebc1b6.chunk.css.map",
+    "static/js/2.e7570323.chunk.js.LICENSE.txt": "/our-game-ranking/static/js/2.e7570323.chunk.js.LICENSE.txt",
+    "static/media/addGameIcon.47b2a4c5.svg": "/our-game-ranking/static/media/addGameIcon.47b2a4c5.svg",
+    "static/media/addUserIcon.9e2834c9.svg": "/our-game-ranking/static/media/addUserIcon.9e2834c9.svg",
     "static/media/bronzeMedalIcon.b566105d.svg": "/our-game-ranking/static/media/bronzeMedalIcon.b566105d.svg",
     "static/media/coronaIcon.ba990780.svg": "/our-game-ranking/static/media/coronaIcon.ba990780.svg",
     "static/media/gameHistoryIcon.4d2ec940.svg": "/our-game-ranking/static/media/gameHistoryIcon.4d2ec940.svg",
+    "static/media/gameSummaryIcon.8a6f9364.svg": "/our-game-ranking/static/media/gameSummaryIcon.8a6f9364.svg",
+    "static/media/showAllGamesIcon.7842e47d.svg": "/our-game-ranking/static/media/showAllGamesIcon.7842e47d.svg",
     "static/media/silverMedalIcon.ebe2bf14.svg": "/our-game-ranking/static/media/silverMedalIcon.ebe2bf14.svg",
     "static/media/userCogImage.876ff057.svg": "/our-game-ranking/static/media/userCogImage.876ff057.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a99d049a.js",
-    "static/js/2.4ccd566f.chunk.js",
-    "static/css/main.34a6b6b6.chunk.css",
-    "static/js/main.49f90b5b.chunk.js"
+    "static/js/2.e7570323.chunk.js",
+    "static/css/main.d3ebc1b6.chunk.css",
+    "static/js/main.0400e643.chunk.js"
   ]
 }
