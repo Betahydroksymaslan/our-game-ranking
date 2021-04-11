@@ -1,0 +1,23 @@
+.Dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    min-height: 200px;
+    background-color: $box-color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 15px 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.158);
+    &__confirm {
+        font-size: 25px;
+    }
+    &__message {
+        font-size: 20px;
+        text-align: center;
+    }
+}

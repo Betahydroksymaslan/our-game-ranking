@@ -1,0 +1,132 @@
+.GameHistory {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+  &__goBackButton {
+    background-color: rgba(255, 255, 255, 0.726);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: rgb(48, 48, 48);
+    font-size: 23px;
+    margin-top: 30px;
+  }
+  &__gameName {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+  }
+  &__dateBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 30px;
+  }
+  &__dateDay,
+  &__dateHour {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  &__playerAllWrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__playerPlace {
+    font-size: 30px;
+    color: #d8d8d8;
+    &--firstPlace {
+      color: rgba(207, 162, 37, 1);
+    }
+    &--secondPlace {
+      color: rgba(192, 192, 192, 1);
+    }
+    &--thirdPlace {
+      color: #cc6633;
+    }
+  }
+  &__playerWrapper {
+    display: grid;
+    width: 80%;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 30px;
+    background-color: $box-color;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.13);
+    &--firstPlace {
+      background-color: rgba(207, 162, 37, 0.363);
+    }
+    &--secondPlace {
+      background-color: rgba(192, 192, 192, 0.404);
+    }
+    &--thirdPlace {
+      background-color: #cc663360;
+    }
+  }
+  &__imageWrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    overflow: hidden;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__playerImage {
+    width: 100%;
+    height: 100%;
+  }
+  &__name {
+    grid-row: 1 / 3;
+    grid-column: 2 / 5;
+    font-size: 23px;
+    align-self: center;
+    justify-self: center;
+    color: $second-color;
+  }
+  &__selfieImageArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  &__selfieImageHeader {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.63);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+    position: relative;
+    margin-bottom: 40px;
+    filter: blur(1px);
+    &::before,
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 110px;
+      height: 1px;
+      background-color: #fff;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &::before {
+      left: 50px;
+    }
+    &::after {
+      right: 50px;
+    }
+  }
+  &__selfieImageWrapper {
+    width: 95%;
+    overflow-x: scroll;
+  }
+  
+}

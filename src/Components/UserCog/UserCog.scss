@@ -1,0 +1,11 @@
+.UserCog {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  visibility: hidden;
+  &__image {
+    width: 70%;
+  }
+}

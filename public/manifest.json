@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "ourGameRankingLogo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "ourGameRankingLogo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/our-game-ranking",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#002a1e",
   "background_color": "#002a1e"

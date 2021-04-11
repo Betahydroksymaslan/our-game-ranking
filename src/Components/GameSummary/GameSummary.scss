@@ -1,0 +1,261 @@
+.GameSummary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  &__header {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 20px 0;
+    width: 80%;
+    text-align: center;
+    &--addPlayers,
+    &--chooseGame {
+      font-size: 24px;
+      font-weight: 300;
+      padding-top: 20px;
+      border-top: 1px solid $second-color;
+    }
+  }
+
+  /* >>>>>>>>>>>>>>>>>>> ADDIGN PLAYERS AREA <<<<<<<<<<<<<<<< */
+
+  &__addPlayer {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: $box-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $font-color;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    transition: transform 0.2 ease;
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+  &__usersPrompt {
+    width: 80%;
+    height: 200px;
+    background-color: $box-color;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+  }
+  &__usersPromptUsers {
+    width: 100%;
+  }
+  &__usersPromptAdd {
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: $font-color;
+    border-radius: 30px;
+  }
+  &__usersPromptLabel {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    outline: none;
+  }
+  &__usersPromptSelect {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: $box-color;
+    color: $font-color;
+  }
+  &__usersIconWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>> ADDIGN PLAYERS ICONS AREA <<<<<<<<<<<<<<<< */
+
+  &__playerIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 3px solid $second-color;
+    margin: 10px 10px 30px;
+  }
+  &__playerIconImg {
+    width: 100%;
+    height: 100%;
+  }
+  &__currentGameWrapper {
+    font-size: 25px;
+    color: $second-color;
+    margin: 10px 0 30px;
+  }
+
+  // >>>>>>>>>>>>>>>>>>>>> POINTS DISTRIBUTION <<<<<<<<<<<<<<<<<<<<<<
+
+  &__addPointsUl {
+    width: 100%;
+  }
+  &__addPointsLi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid $second-color;
+    &:last-child {
+      border: none;
+    }
+  }
+  &__addPointsImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  &__addPointsImage {
+    width: 100%;
+    height: 100%;
+  }
+  &__addPointsPlace {
+    font-size: 25px;
+  }
+  &__addPointsPointsForPlace {
+    font-size: 20px;
+  }
+  &__addPointsNicknme {
+    font-size: 20px;
+  }
+  &__addPointsAddAnother {
+    width: 50%;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: $box-color;
+    text-align: center;
+    margin: 10px 0 20px;
+  }
+  &__addPlayerToRanking {
+    font-size: 22px;
+    color: $second-color;
+  }
+  &__updateButton {
+    width: 60%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: $box-color;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    transition: transform 0.1s ease;
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+  &__updateConfirmBox {
+    width: 80%;
+    height: 200px;
+    background-color: $box-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.158);
+  }
+  &__updateConfirmMessage {
+    font-size: 22px;
+    text-align: center;
+    width: 95%;
+  }
+  &__confirmBoxOptionsWrapper {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__confirmBoxReject {
+    color: rgb(250, 109, 109);
+  }
+  &__confirmBoxAgreement {
+    color: rgb(122, 255, 104);
+  }
+
+  // >>>>>>>>>>>>>>>>> SENDING PHOTO <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  &__sendPhotoButton {
+    padding: 10px 25px;
+    background-color: $box-color;
+    border: none;
+    margin: 30px 0;
+    color: $font-color;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    outline: none;
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+  progress {
+    margin: 25px 0 0;
+  }
+  &__selectFileButton {
+    color: transparent;
+    outline: none;
+    margin-top: 30px;
+    &::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    &::before {
+      content: "Select some files";
+      display: inline-block;
+      background: $box-color;
+      border: none;
+      border-radius: 10px;
+      padding: 5px 13px;
+      outline: none;
+      white-space: nowrap;
+      color: $font-color;
+      font-size: 18px;
+      transform: translateX(80px);
+    }
+  }
+  &__line {
+    width: 80%;
+    border-bottom: 1px solid $second-color;
+  }
+}

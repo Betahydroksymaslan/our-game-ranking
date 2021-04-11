@@ -1,80 +1,84 @@
-import React from "react";
-import Navigation from "../Navigation/Navigation";
-import KacperPhoto from "../../assets/images/kacperPhoto.PNG";
-import KarolPhoto from "../../assets/images/karolPhoto.PNG";
-import JustynaPhoto from "../../assets/images/justynaPhoto.PNG";
-import PaulinaPhoto from "../../assets/images/paulinaPhoto.PNG";
-import CoronaImg from "../../assets/images/coronaIcon.svg";
+import React, { useContext, useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUsersCog } from "@fortawesome/free-solid-svg-icons";
+import { AppContext } from "../../store/store";
+import Leaders from "./Leaders/Leaders";
+import {ReactComponent as GameHistoryIcon} from '../../assets/images/gameHistoryIcon.svg';
+import { gsap } from "gsap";
+import GameHistory from "../GameHistory/GameHistory";
 
 const HomePage = () => {
+  const {
+    restOfUsers,
+    firstThree,
+    firstThreeByGames,
+    restOfUsersByGames,
+  } = useContext(AppContext);
+
+  let page = useRef(null);
+
+  const [isStandard, setIsStandard] = useState(true);
+
+  const navStndardHandle = () => setIsStandard(true);
+
+  const navPerGamesHandle = () => setIsStandard(false);
+
+  useEffect(() => {
+    const tl = gsap.timeline();
+    tl.fromTo(page, { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
+  }, []);
+
   return (
-    <div className="HomePage">
-      <h2 className="HomePage__header">Leaderboard</h2>
-      <Navigation />
-      <div className="HomePage__leadersWrapper">
-        <div className="HomePage__thirdPlace">
-          <span className="HomePage__placeNumber">3</span>
-          <div className="HomePage__symbol">></div>
-          <div className="HomePage__image">
-            <img className="HomePage__imageSrc" src={KacperPhoto} alt="" />
+    <>
+      <div className="HomePage" ref={(el) => (page = el)}>
+        <h2 className="HomePage__header">Leaderboard</h2>
+        <Link to="/our-game-ranking/allGamesHistory" className="HomePage__gameHistoryIconWrapper">
+          <GameHistoryIcon className="HomePage__gameHistoryIcon" />
+        </Link>
+        
+        <Link to="/our-game-ranking/user" className="HomePage__userCogWrapper">
+          <FontAwesomeIcon className="HomePage__userCog" icon={faUsersCog} />
+        </Link>
+        <nav className="HomePage__nav">
+          <div
+            onClick={navPerGamesHandle}
+            className={
+              !isStandard
+                ? "HomePage__link HomePage__link--active"
+                : "HomePage__link"
+            }
+          >
+            per games
           </div>
-          <span className="HomePage__nickname">Kacper</span>
-          <span className="HomePage__points">43</span>
-        </div>
 
-        <div className="HomePage__firstPlace">
-          <span className="HomePage__placeNumber">1</span>
-          <div className="HomePage__symbol">
-            <img src={CoronaImg} className="HomePage__corona" alt="corona" />
+          <div
+            onClick={navStndardHandle}
+            className={
+              isStandard
+                ? "HomePage__link HomePage__link--active"
+                : "HomePage__link"
+            }
+          >
+            standard
           </div>
-          <div className="HomePage__image HomePage__image--first">
-            <img className="HomePage__imageSrc" src={KarolPhoto} alt="" />
-          </div>
-          <span className="HomePage__nickname">Karol</span>
-          <span className="HomePage__points">356</span>
-        </div>
+        </nav>
 
-        <div className="HomePage__secondPlace">
-          <span className="HomePage__placeNumber">2</span>
-          <div className="HomePage__symbol">></div>
-          <div className="HomePage__image">
-            <img className="HomePage__imageSrc" src={JustynaPhoto} alt="" />
-          </div>
-          <span className="HomePage__nickname">Justyna</span>
-          <span className="HomePage__points">124</span>
-        </div>
+        {isStandard ? (
+          <Leaders
+            isStandard={isStandard}
+            data={firstThree}
+            restOfData={restOfUsers}
+          />
+        ) : (
+          <Leaders
+            isStandard={isStandard}
+            data={firstThreeByGames}
+            restOfData={restOfUsersByGames}
+          />
+        )}
       </div>
-
-      <div className="HomePage__anotherPlaces">
-        <span className="HomePage__placeNumberSpan">4</span>
-        <div className="HomePage__anotherPlacesBox">
-          <div className="HomePage__anotherPlacesImageWrapper">
-            <img
-              src={PaulinaPhoto}
-              alt=""
-              className="HomePage__anotherPlacesImage"
-            />
-          </div>
-          <span className="HomePage__anotherPlacesNickname">Paulina</span>
-          <span className="HomePage__anotherPlacesPoints">15</span>
-        </div>
-      </div>
-
-      <div className="HomePage__anotherPlaces">
-        <span className="HomePage__placeNumberSpan">5</span>
-        <div className="HomePage__anotherPlacesBox">
-          <div className="HomePage__anotherPlacesImageWrapper">
-            <img
-              src={KacperPhoto}
-              alt=""
-              className="HomePage__anotherPlacesImage"
-            />
-          </div>
-          <span className="HomePage__anotherPlacesNickname">Eugeniusz</span>
-          <span className="HomePage__anotherPlacesPoints">8</span>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

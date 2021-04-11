@@ -1,5 +1,16 @@
 @import './resetCSS/resetCSS.scss';
 @import './cssVariables/cssVariables.scss';
 @import './Components/App/App.scss';
-@import './Components/Navigation/Navigation.scss';
+@import './Components/Back/Back.scss';
 @import './Components/HomePage/HomePage.scss';
+@import './Components/UserCog/UserCog.scss';
+@import './Components/AddGame/AddGame.scss';
+@import './Components/AddUser/AddUser.scss';
+@import './Components/UserCog/Buttons/Buttons.scss';
+@import './Components/AllGames/AllGames.scss';
+@import './Components/Profile/Profile.scss';
+@import './Components/GameSummary/GameSummary.scss';
+@import './Components/Dialog/Dialog.scss';
+@import './Components/Loader/Loader.scss';
+@import './Components/GameHistory/GameHistory.scss';
+@import './Components/AllGamesHistory/AllGamesHistory.scss';

@@ -1,0 +1,55 @@
+.AllGamesHistory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  &__gameWrapper {
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    &:nth-child(odd) {
+      background-color: $box-color;
+    }
+  }
+  &__restWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% - 110px);
+    height: 100%;
+  }
+  &__imageWrapper {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 0 20px;
+  }
+  &__image {
+    width: 100%;
+  }
+  &__tittle {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 100%;
+    color: white;
+  }
+  &__playersWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  &__playerImageWrapper {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid $second-color;
+  }
+  &__playerImage {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.Back {
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid $font-color;
+  border-left: 2px solid $font-color;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transform: rotate(45deg);
+}
